@@ -28,20 +28,34 @@
       .panel{border-left:none;border-top:1px solid #ccc}
       .panel:first-child{border-top:none}
     }
+
+        .iframe-container {
+            text-align: center; /* iframe’i yatay ortalar */
+            margin: 50px 0;    /* üstten ve alttan boşluk */
+        }
+
+        iframe {
+            border: none;
+        }
   </style>
 </head>
 <body>
 
-  <iframe id='ivplayer' width='640' height='360' src='https://invidious.f5.si/embed/16QXu3E3NEU' style='border:none;'></iframe>
-<div class="wrap">
+
+  <div class="wrap">
   <div class="panel">
-    <h1>İngilizce:</br>
-    <h3>J. R. R Tolkien'in sesinden:</h3>
+    
+    <h1>İngilizce:</h1>
+    <h3> Şarkı versiyonu:</h3>
+  <iframe id='ivplayer' width='640' height='360' src='https://invidious.f5.si/embed/16QXu3E3NEU' style='border:none;'></iframe>
+  </br>
+    <h3>J. R. R Tolkien'in sesinden şiiri:</h3>
     <audio controls>
         <source src="./daglar.mp3" type="audio/mpeg">
         Tarayıcınız audio etiketini desteklemiyor.
     </audio>
-    <br>
+    </br></br>
+      <h3> The Misty Mountains Cold </h3>
     Far over the misty mountains cold</br>
 To dungeons deep and caverns old</br>
 We must away ere break of day</br>
@@ -96,6 +110,12 @@ Far over the misty mountains cold</br>
 To dungeons deep and caverns old</br>
 We must away, ere break of day,</br>
 To find our long-forgotten gold.</br>
+  </div>
+
+  <div class="panel">
+
+  
+  
   </div>
 </div>
 </body>
